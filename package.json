@@ -1,0 +1,27 @@
+{
+  "name": "social-app",
+  "version": "1.0.0",
+  "description": "My first social media app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Arko Antony Mitra",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.3",
+    "react-router-dom": "^5.2.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
