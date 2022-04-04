@@ -1,0 +1,4 @@
+{
+  "mongoURI" : "mongodb+srv://arkomitra:arko5692@cluster0.vyd7u.mongodb.net/socialDB?retryWrites=true&w=majority",
+  "jwtSecret" : "mysecret5692"
+}
